@@ -1,0 +1,6 @@
+[
+  { "icon": "assets/C_logo.png", "name": "C Programming", "level": 70 },
+  { "icon": "assets/python logo.png", "name": "Python Programming", "level": 60 },
+  { "icon": "assets/vibe coding.jpeg", "name": "Vibe Coding", "level": 90 },
+  { "icon": "assets/ms office.png", "name": "MS Office Suite", "level": 60 }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "level": "Class X",
+    "board": "Bihar School Examination Board (BSEB)",
+    "school": "B.K.S High School",
+    "logo": "assets/bseb_logo.png",
+    "year": "2020",
+    "status": "complete"
+  },
+  {
+    "level": "Class XII",
+    "board": "Bihar School Examination Board (BSEB)",
+    "school": "R.J.R.R.S.D College",
+    "logo": "assets/bseb_logo.png",
+    "year": "2022",
+    "status": "complete"
+  },
+  {
+    "level": "B.Tech Biotechnology",
+    "board": "Lovely Professional University (LPU)",
+    "school": "School of Bioengineering & Biosciences",
+    "logo": "assets/lpu_logo.png",
+    "year": "2025 — 2029",
+    "status": "progress"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "PRJ-001",
+    "title": "Genomic-Agent”: Self-Correction AI",
+    "desc": "Will develop an agentic AI system that autonomously detects and corrects DNA sequencing errors using large language models and Pinecone vector databases, and will deploy it as a FastAPI-based Docker microservice to deliver sub-millisecond request latency.",
+    "tags": ["LangChain", "Vector DBs", "PyTorch"],
+    "status": "future",
+    "link": "#"
+  },
+  {
+    "id": "PRJ-002",
+    "title": "Agri-Vision”: Edge AI for Crops",
+    "desc": "Will develop an Edge AI model using model quantization to enable deep learning detection on low-power IoT devices for farmers without internet access.",
+    "tags": ["TensorFlow Lite", "Quantization", "IoT" ],
+    "status": "future",
+    "link": "#"
+  }
+]

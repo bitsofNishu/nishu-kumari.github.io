@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BioNex // Initializing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Loader: Full-screen loading screen. Text content is overwritten by data/loader.json via loader.js -->
+  <div id="loader">
+    <!-- Background canvas: floating molecules + bio symbols drawn by loader.js -->
+    <canvas id="loader-bg-canvas"></canvas>
+    <!-- DNA helix: animated double helix drawn on a canvas injected by loader.js -->
+    <div class="loader-dna" id="loader-dna"></div>
+    <div class="loader-text">
+      <span class="scan-line"></span>
+      <!-- Title: overwritten from loader.json "title" field -->
+      <p class="loader-label">BIONEX SYSTEM // BOOT SEQUENCE</p>
+      <!-- Console: log lines appended here by loader.js from loader.json "logs" array -->
+      <div class="loader-console" id="loader-console"></div>
+      <!-- Progress bar: CSS-animated fill -->
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+      <!-- Ready message: overwritten from loader.json readyText/readyName/readySuffix -->
+      <p class="loader-ready" id="loader-ready"></p>
+      <!-- Enter button: text from loader.json "buttonText". Click triggers warp → main.html -->
+      <button id="loader-enter" class="loader-enter-btn"></button>
+    </div>
+  </div>
+  <script src="loader.js"></script>
+</body>
+</html>

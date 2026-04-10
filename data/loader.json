@@ -1,0 +1,25 @@
+{
+  "title": "BIONEX SYSTEM // BOOT SEQUENCE",
+  "readyText": "⧬ GENOME DECODED —",
+  "readyName": "NISHU KUMARI",
+  "readySuffix": "'S BIOVERSE AWAITS ⧬",
+  "buttonText": "▶ INITIALIZE",
+  "logs": [
+    { "t": 200,  "text": "<span class='log-prefix'>[0.001]</span> kernel: BioNex v2.1.7-rc3 (gcc 13.2.0)" },
+    { "t": 450,  "text": "<span class='log-prefix'>[0.014]</span> mem: 64GB genome buffer allocated at 0x7fff <span class='log-ok'>OK</span>" },
+    { "t": 650,  "text": "<span class='log-prefix'>[0.023]</span> <span class='log-warn'>WARN: swap partition not found, using tmpfs</span>" },
+    { "t": 850,  "text": "<span class='log-prefix'>[0.031]</span> pci: Holographic GPU detected — NexRender 4090Ti" },
+    { "t": 1050, "text": "<span class='log-prefix'>[0.042]</span> <span class='log-err'>ERR: /dev/biolink0 timeout — retrying (1/3)</span>" },
+    { "t": 1250, "text": "<span class='log-prefix'>[0.048]</span> net: Neural uplink eth0: 10Gbps <span class='log-ok'>CONNECTED</span>" },
+    { "t": 1450, "text": "<span class='log-prefix'>[0.062]</span> bio: Loading CRISPR-Cas9 module v4.7... <span class='log-ok'>OK</span>" },
+    { "t": 1600, "text": "<span class='log-prefix'>[0.071]</span> <span class='log-warn'>WARN: deprecated helicase driver, update recommended</span>" },
+    { "t": 1800, "text": "<span class='log-prefix'>[0.079]</span> bio: Protein fold DB mounted (2.4TB) <span class='log-ok'>OK</span>" },
+    { "t": 2000, "text": "<span class='log-prefix'>[0.091]</span> sec: Biometric scan... DNA match <span class='log-ok'>VERIFIED</span>" },
+    { "t": 2150, "text": "<span class='log-prefix'>[0.098]</span> <span class='log-err'>ERR: telomere checksum mismatch — auto-corrected</span>" },
+    { "t": 2350, "text": "<span class='log-prefix'>[0.103]</span> sec: Clearance Σ-7 <span class='log-ok'>GRANTED</span> for <span class='log-name'>NISHU KUMARI</span>" },
+    { "t": 2550, "text": "<span class='log-prefix'>[0.118]</span> gpu: Compiling constellation shaders... <span class='log-ok'>OK</span>" },
+    { "t": 2700, "text": "<span class='log-prefix'>[0.134]</span> venv: Virtual lab environment <span class='log-ok'>ONLINE</span>" },
+    { "t": 2850, "text": "<span class='log-prefix'>[0.150]</span> sys: All subsystems <span class='log-ok'>NOMINAL</span> — 2 warnings, 0 critical" },
+    { "t": 3000, "text": "<span class='log-prefix'>[0.160]</span> usr: <span class='log-warn'>Awaiting operator confirmation...</span>" }
+  ]
+}

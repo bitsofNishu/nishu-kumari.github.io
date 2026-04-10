@@ -1,0 +1,13 @@
+{
+  "prompt": "nishu@comm:~$",
+  "links": [
+    { "icon": "✉", "label": "Email", "href": "mailto:contact.nishukumari@gmail.com" },
+    { "icon": "⟐", "label": "GitHub", "href": "https://github.com/bitsofNishu" },
+    { "icon": "◈", "label": "LinkedIn", "href": "https://www.linkedin.com/in/nishu-kumari-077244380" }
+  ],
+  "commands": {
+    "help": ["Available commands:", "  <span class='hl'>about</span>    — Who am I", "  <span class='hl'>email</span>    — Get my email", "  <span class='hl'>github</span>   — GitHub profile", "  <span class='hl'>linkedin</span> — LinkedIn profile", "  <span class='hl'>skills</span>   — My skill set", "  <span class='hl'>clear</span>    — Clear terminal", "  <span class='hl'>hello</span>    — Say hi"],
+    "about": ["Biotechnology student passionate about genetic engineering,", "AI, agentic development, and computational approaches to life sciences."],
+    "hello": ["Hey there! Thanks for visiting my portfolio. 🧬"]
+  }
+}

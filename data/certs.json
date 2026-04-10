@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Introduction to Critical Thinking and Logic",
+    "provider": "saylor",
+    "logo": "assets/saylor-university-logo.svg",
+    "date": "Feb 28, 2026",
+    "pdf": "assets/Introduction to Critical Thinking and Logic.pdf"
+  },
+  {
+    "title": "Mass Communication",
+    "provider": "saylor",
+    "logo": "assets/saylor-university-logo.svg",
+    "date": "Nov 29, 2025",
+    "pdf": "assets/Mass Communication.pdf"
+  },
+  {
+    "title": "InfernoVerse 24-hr Hackathon",
+    "provider": "GeeksforGeeks",
+    "logo": "assets/gfg-gg-logo.svg",
+    "date": "Jan 12, 2025",
+    "pdf": "assets/infernoverse-24hrs-gfg.pdf"
+  },
+  {
+    "title": "InfernoVerse 2025 24-hr Hackathon",
+    "provider": "HiDevs",
+    "logo": "assets/hidevslogo.avif",
+    "date": "Nov 14-15, 2025",
+    "pdf": "assets/infernoverse-25-hidevs.pdf"
+  }
+]

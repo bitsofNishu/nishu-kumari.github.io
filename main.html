@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BioNex // Nishu Kumari</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="star-tooltip"></div>
+  <div id="cursor-glow"></div>
+  <canvas id="constellation-bg"></canvas>
+  <canvas id="bio-particles"></canvas>
+  <div class="scanlines"></div>
+
+  <!-- Navigation -->
+  <nav id="nav-rail">
+    <a href="#hero" class="rail-node active" data-label="Home"><span class="rail-dot"></span></a>
+    <a href="#about" class="rail-node" data-label="Who Am I"><span class="rail-dot"></span></a>
+    <a href="#education" class="rail-node" data-label="Journey"><span class="rail-dot"></span></a>
+    <a href="#gallery" class="rail-node" data-label="Snapshots"><span class="rail-dot"></span></a>
+    <a href="#stargame" class="rail-node" data-label="Play"><span class="rail-dot"></span></a>
+    <a href="#skills" class="rail-node" data-label="Abilities"><span class="rail-dot"></span></a>
+    <a href="#projects" class="rail-node" data-label="Lab Work"><span class="rail-dot"></span></a>
+    <a href="#certs" class="rail-node" data-label="Credentials"><span class="rail-dot"></span></a>
+    <a href="#contact" class="rail-node" data-label="Reach Me"><span class="rail-dot"></span></a>
+  </nav>
+  <button id="sound-toggle" aria-label="Toggle sound">🔇</button>
+
+  <!-- 1. Hero — rendered from data/hero.json -->
+  <section id="hero" class="section"></section>
+
+  <!-- 2. Who Am I — rendered from data/about.json -->
+  <section id="about" class="section">
+    <div class="section-header reveal"><span class="section-tag">// SUBJECT PROFILE</span><h2 class="section-title neon-text">Who Am I</h2></div>
+    <div id="about-content" class="about-card reveal"></div>
+  </section>
+
+  <!-- 3. Journey — rendered from data/education.json -->
+  <section id="education" class="section">
+    <div class="section-header reveal"><span class="section-tag">// EVOLUTION PATH</span><h2 class="section-title neon-text">Journey</h2></div>
+    <div id="edu-timeline" class="edu-timeline reveal"><div class="edu-line"></div></div>
+  </section>
+
+  <!-- 4. Snapshots — rendered from data/gallery.json -->
+  <section id="gallery" class="section">
+    <div class="section-header reveal"><span class="section-tag">// CAPTURED MOMENTS</span><h2 class="section-title neon-text">Snapshots</h2></div>
+    <div id="gallery-grid" class="gallery-grid reveal"></div>
+  </section>
+
+  <!-- 4.5 Constellation Connect — interactive star drawing game -->
+  <section id="stargame" class="section">
+    <div class="section-header reveal"><span class="section-tag">// INTERACTIVE LAB</span><h2 class="section-title neon-text">Draw Your Constellation</h2></div>
+    <p class="stargame-hint reveal">Click stars to connect them. Create your own pattern in the cosmos.</p>
+    <div class="stargame-wrap reveal">
+      <canvas id="stargame-canvas"></canvas>
+      <div id="stargame-toast" class="stargame-toast"></div>
+      <div class="stargame-controls">
+        <button id="stargame-clear" class="btn-outline">⟲ RESET COSMOS</button>
+        <span id="stargame-count" class="stargame-count">0 connections</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Abilities — rendered from data/skills.json -->
+  <section id="skills" class="section">
+    <div class="section-header reveal"><span class="section-tag">// GENE EXPRESSION</span><h2 class="section-title neon-text">Abilities</h2></div>
+    <div id="skills-grid" class="skills-grid reveal"></div>
+  </section>
+
+  <!-- 6. Lab Work — rendered from data/projects.json -->
+  <section id="projects" class="section">
+    <div class="section-header reveal"><span class="section-tag">// EXPERIMENT LOG</span><h2 class="section-title neon-text">Lab Work</h2></div>
+    <div id="projects-grid" class="projects-grid"></div>
+  </section>
+
+  <!-- 7. Credentials — rendered from data/certs.json -->
+  <section id="certs" class="section">
+    <div class="section-header reveal"><span class="section-tag">// VERIFIED SEQUENCES</span><h2 class="section-title neon-text">Credentials</h2></div>
+    <div id="certs-grid" class="certs-grid reveal"></div>
+    <div id="cert-modal" class="cert-modal">
+      <button id="cert-modal-close" class="cert-modal-close">✕</button>
+      <iframe id="cert-viewer" class="cert-viewer"></iframe>
+    </div>
+  </section>
+
+  <!-- 8. Reach Me — rendered from data/contact.json -->
+  <section id="contact" class="section">
+    <div class="section-header reveal"><span class="section-tag">// OPEN CHANNEL</span><h2 class="section-title neon-text">Reach Me</h2></div>
+    <div id="contact-content"></div>
+  </section>
+
+  <footer class="footer"><p>⟨ VIBE CODED & DESIGNED BY NISHU KUMARI // © 2025 ⟩</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>

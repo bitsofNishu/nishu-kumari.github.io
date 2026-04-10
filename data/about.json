@@ -1,0 +1,10 @@
+{
+  "profileImage": "assets/profile_image.jpeg",
+  "fields": [
+    { "label": "DESIGNATION", "value": "B.Tech Biotechnology — 1st Year" },
+    { "label": "SPECIALIZATION", "value": "Biotechnology, AI & Computational Biology" },
+    { "label": "AFFILIATION", "value": "Lovely Professional University (LPU)" },
+    { "label": "INTERESTS", "value": "CRISPR // Artificial Intelligence // Agentic AI // Synthetic Bio" }
+  ],
+  "bio": "A first-year Biotechnology student with an insatiable curiosity for where biology meets technology. Equally fascinated by gene editing and AI-driven innovation, she spends her time exploring bioinformatics, building agentic AI workflows, and staying on top of the latest in artificial intelligence, computer science, and synthetic biology. Believes the future belongs to those who can bridge the gap between the lab bench and the command line."
+}

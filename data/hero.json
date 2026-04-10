@@ -1,0 +1,15 @@
+{
+  "name": "Nishu Kumari",
+  "taglines": [
+    "Biotechnology Explorer // Genetic Architect",
+    "AI Curious // Code Meets Biology",
+    "First-Year Biotech // Infinite Possibilities",
+    "Tech Enthusiast // From CRISPR to Neural Nets",
+    "Bioinformatics Dreamer // Data Driven Thinker",
+    "Synthetic Bio // Machine Learning // Future Ready"
+  ],
+  "ctaButtons": [
+    { "text": "VIEW CERTIFICATES", "href": "#certs", "style": "neon" },
+    { "text": "MAKE CONTACT", "href": "#contact", "style": "outline" }
+  ]
+}
